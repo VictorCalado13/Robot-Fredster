@@ -4,13 +4,13 @@ Fredster é um robô explorador controlado via gamepad, desenvolvido com Arduino
 
 ---
 
-## 🚀 Descrição
+## **🚀 Descrição**
 
 O Fredster foi criado para demonstrar um sistema de robótica móvel simples, controlado remotamente, com capacidade de exploração e deslocamento em ambientes variados. Ele utiliza o módulo Dabble para facilitar a comunicação via Bluetooth com o celular, e movimenta-se através de dois motores DC controlados por uma ponte H.
 
 ---
 
-## 🛠️ Tecnologias e Componentes
+## **🛠️ Tecnologias e Componentes**
 
 - **Arduino Nano V3**
 - **Bluetooth HM-10**
@@ -20,10 +20,10 @@ O Fredster foi criado para demonstrar um sistema de robótica móvel simples, co
 
 ---
 
-## 📦 Bibliotecas Necessárias
+## **📦 Bibliotecas Necessárias**
 
 Para que o aplicativo Dabble funcione corretamente com o robô Fredster, é necessário incluir estas bibliotecas no seu código Arduino:
-
+```plaintext
 #define CUSTOM_SETTINGS
 #define INCLUDE_GAMEPAD_MODULE
 #include <Dabble.h>
